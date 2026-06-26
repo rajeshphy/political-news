@@ -1,0 +1,92 @@
+settings:
+  india_limit: 48
+  world_limit: 24
+
+  final_points_total: 5
+  max_groups_per_section: 10
+  min_group_score: 3
+
+  require_ist_today: true
+  max_age_hours: 30
+  allow_unknown_dates: false
+
+  india_keywords: >-
+    india,indian,national,central government,union government,parliament,
+    lok sabha,rajya sabha,prime minister,president of india,cabinet,
+    election commission,supreme court,bjp,congress,nda,india bloc,
+    national politics,delhi
+
+  world_keywords: >-
+    india,indian,national,central government,union government,
+    policy,bill,ordinance,act,parliament,committee,cabinet,election,
+    alliance,party,governance,constitution,supreme court,election commission,
+    manifesto,minister,prime minister,president
+
+  politics_topic_keywords: >-
+    parliament,lok sabha,rajya sabha,bill,ordinance,cabinet,minister,
+    prime minister,president,election,election commission,eci,supreme court,
+    constitution,governance,policy,alliance,party,bjp,congress,nda,india bloc,
+    opposition,coalition,chief minister,national executive
+
+  india_anchor_keywords: >-
+    india,indian,modi,prime minister modi,union government,central government,
+    lok sabha,rajya sabha,parliament of india,election commission of india,
+    eci,bjp,congress,nda,india bloc,supreme court
+
+  research_keywords: >-
+    parliament,lok sabha,rajya sabha,bill,ordinance,cabinet,minister,
+    election,election commission,eci,supreme court,constitution,governance,
+    policy,alliance,party,bjp,congress,nda,india bloc,opposition,coalition
+
+  classroom_keywords: >-
+    parliament,constitution,election,policy,bill,supreme court,governance,
+    federalism,rights,welfare,budget
+
+  low_value_keywords: >-
+    opinion,editorial,podcast,quiz,photo gallery,web story,celebrity,
+    birthday,wishes,speech only,reaction only,slogan,row over poster,
+    viral video,social media post
+
+  exclude_keywords: >-
+    horoscope,astrology,photo gallery,photos,web story,viral video,recipe,
+    entertainment,film,box office,cricket,football,celebrity,birthday wishes,
+    opinion,editorial,live score,israeli parliament,knesset,hitchin,
+    uk prime minister,sports ministry,taekwondo
+
+sources:
+  india:
+    - name: Google News - National Politics
+      type: rss
+      weight: 4
+      url: "https://news.google.com/rss/search?q=%28India%20OR%20Indian%29%20%28politics%20OR%20parliament%20OR%20cabinet%20OR%20government%20OR%20election%20OR%20policy%29%20when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+
+    - name: Google News - Parliament
+      type: rss
+      weight: 4
+      url: "https://news.google.com/rss/search?q=%28%22Lok%20Sabha%22%20OR%20%22Rajya%20Sabha%22%20OR%20Parliament%20OR%20%22Union%20Cabinet%22%29%20India%20when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+
+    - name: Google News - Election Commission
+      type: rss
+      weight: 4
+      url: "https://news.google.com/rss/search?q=%28%22Election%20Commission%20of%20India%22%20OR%20ECI%20OR%20election%29%20India%20national%20when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+
+    - name: Google News - Supreme Court Politics
+      type: rss
+      weight: 3
+      url: "https://news.google.com/rss/search?q=%28%22Supreme%20Court%22%20OR%20constitution%29%20%28government%20OR%20election%20OR%20parliament%20OR%20policy%29%20India%20when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+
+    - name: Google News - PIB Governance
+      type: rss
+      weight: 3
+      url: "https://news.google.com/rss/search?q=site%3Apib.gov.in%20%28cabinet%20OR%20parliament%20OR%20governance%20OR%20policy%20OR%20election%29%20when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+
+  world:
+    - name: Google News - National Party Politics
+      type: rss
+      weight: 3
+      url: "https://news.google.com/rss/search?q=%28BJP%20OR%20Congress%20OR%20NDA%20OR%20%22INDIA%20bloc%22%29%20%28national%20OR%20parliament%20OR%20government%20OR%20election%29%20when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+
+    - name: Google News - National Policy Politics
+      type: rss
+      weight: 3
+      url: "https://news.google.com/rss/search?q=%28%22central%20government%22%20OR%20%22Union%20government%22%20OR%20%22Prime%20Minister%22%29%20%28policy%20OR%20bill%20OR%20cabinet%20OR%20parliament%29%20when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"

@@ -1,0 +1,9 @@
+title: Political Brief
+description: A daily English digest of national political news from India.
+url: ""
+baseurl: "/political-news"
+timezone: Asia/Kolkata
+future: false
+
+plugins:
+  - jekyll-feed
