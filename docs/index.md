@@ -5,6 +5,8 @@ title: Political Brief
 
 <h1>Political Brief</h1>
 
+<p class="feed-link"><a href="{{ '/feed.xml' | relative_url }}">RSS feed</a></p>
+
 <ul class="post-list">
   {% for post in site.posts %}
     <li>

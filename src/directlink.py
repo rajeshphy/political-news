@@ -3,6 +3,7 @@ from __future__ import annotations
 import html
 import urllib.parse
 import urllib.request
+from urllib.error import HTTPError, URLError
 from functools import lru_cache
 
 
@@ -51,6 +52,23 @@ BAD_FINAL_EXTENSIONS = (
     ".woff2",
 )
 
+REDIRECT_TIMEOUT_SECONDS = 4
+
+
+class DirectLinkFound(Exception):
+    def __init__(self, url: str):
+        self.url = url
+
+
+class DirectRedirectHandler(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        newurl = urllib.parse.urljoin(req.full_url, newurl)
+
+        if is_direct_article_redirect(req.full_url, newurl):
+            raise DirectLinkFound(newurl)
+
+        return super().redirect_request(req, fp, code, msg, headers, newurl)
+
 
 def clean_url(url: str) -> str:
     url = html.unescape((url or "").strip())
@@ -91,6 +109,21 @@ def is_bad_final_url(url: str) -> bool:
     return False
 
 
+def is_direct_article_redirect(source_url: str, target_url: str) -> bool:
+    source_host = urllib.parse.urlparse(source_url).netloc.lower()
+    target_host = urllib.parse.urlparse(target_url).netloc.lower()
+
+    if not target_host or target_host == source_host:
+        return False
+
+    google_hosts = ("news.google.", "google.com", "www.google.")
+
+    if "news.google." in source_host and not any(host in target_host for host in google_hosts):
+        return True
+
+    return False
+
+
 def browser_final_url(url: str) -> str:
     """
     Open an RSS/indirect link and return the actual URL reached after
@@ -105,11 +138,19 @@ def browser_final_url(url: str) -> str:
         return ""
 
     try:
+        opener = urllib.request.build_opener(DirectRedirectHandler)
         request = urllib.request.Request(url, headers=HEADERS, method="GET")
 
-        with urllib.request.urlopen(request, timeout=30) as response:
+        with opener.open(request, timeout=REDIRECT_TIMEOUT_SECONDS) as response:
             final_url = response.geturl() or url
 
+    except DirectLinkFound as found:
+        final_url = found.url
+
+    except (HTTPError, URLError, TimeoutError, OSError):
+        return url
+
+    try:
         final_url = clean_url(final_url)
 
         if not is_http_url(final_url):
@@ -121,14 +162,14 @@ def browser_final_url(url: str) -> str:
         return final_url
 
     except Exception:
-        return ""
+        return url
 
 
 @lru_cache(maxsize=512)
 def resolve_direct_link(url: str) -> str:
     """
-    Resolve feed/news links by opening them and returning only the final landed
-    URL. If final URL cannot be verified by actually opening the indirect link,
-    return an empty string so fetch.py can skip that item.
+    Resolve feed/news links by opening them and returning the landed URL.
+    If the destination is slow, keep the original URL instead of blocking
+    the whole digest.
     """
     return browser_final_url(url)

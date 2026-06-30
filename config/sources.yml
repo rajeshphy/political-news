@@ -5,6 +5,7 @@ settings:
   final_points_total: 5
   max_groups_per_section: 10
   min_group_score: 3
+  direct_link_workers: 8
 
   require_ist_today: true
   max_age_hours: 30
@@ -41,6 +42,15 @@ settings:
   classroom_keywords: >-
     parliament,constitution,election,policy,bill,supreme court,governance,
     federalism,rights,welfare,budget
+
+  impact_keywords: >-
+    approved,cleared,passed,introduced,notified,announced,ordered,hearing,
+    verdict,judgment,directive,panel,committee,deadline,implementation,
+    allocation,amendment
+
+  thin_story_keywords: >-
+    live updates,what we know,explained in,top quotes,watch,reaction,reacts,
+    slams,hits out,likely to,may soon
 
   low_value_keywords: >-
     opinion,editorial,podcast,quiz,photo gallery,web story,celebrity,

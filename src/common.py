@@ -28,6 +28,7 @@ class NewsItem:
     title: str
     url: str
     source: str = ""
+    summary: str = ""
     source_weight: int = 1
     published: str = ""
     published_at: datetime | None = None

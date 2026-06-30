@@ -55,7 +55,7 @@ def filter_relevant_items(section: str, items: list[NewsItem], settings: dict) -
     relevant: list[NewsItem] = []
 
     for item in items:
-        haystack = f"{item.title} {item.source}".lower()
+        haystack = f"{item.title} {item.source} {item.summary}".lower()
         section_match = any(keyword in haystack for keyword in keywords)
         topic_match = any(keyword in haystack for keyword in topic_keywords)
         anchor_match = any(keyword in haystack for keyword in india_anchors)
@@ -82,7 +82,7 @@ def filter_excluded_items(items: list[NewsItem], settings: dict) -> list[NewsIte
     useful: list[NewsItem] = []
 
     for item in items:
-        haystack = f"{item.title} {item.source}".lower()
+        haystack = f"{item.title} {item.source} {item.summary}".lower()
 
         if not any(keyword in haystack for keyword in excluded):
             useful.append(item)
@@ -276,7 +276,7 @@ def score_story_group(group: list[NewsItem], settings: dict) -> tuple[int, list[
         return 0, []
 
     section = group[0].section
-    text = " ".join(f"{item.title} {item.source}" for item in group).lower()
+    text = " ".join(f"{item.title} {item.source} {item.summary}" for item in group).lower()
     score = 0
     reasons: list[str] = []
 
@@ -333,6 +333,30 @@ def score_story_group(group: list[NewsItem], settings: dict) -> tuple[int, list[
         score += boost
         reasons.append(f"civic value +{boost}")
 
+    detail_boost = information_density_score(text)
+
+    if detail_boost:
+        score += detail_boost
+        reasons.append(f"specific detail +{detail_boost}")
+
+    impact_hits = keyword_hits(
+        text,
+        configured_keywords(
+            settings,
+            "impact_keywords",
+            (
+                "approved,cleared,passed,introduced,notified,announced,ordered,"
+                "hearing,verdict,judgment,directive,panel,committee,deadline,"
+                "implementation,allocation,amendment"
+            ),
+        ),
+    )
+
+    if impact_hits:
+        boost = min(4, impact_hits)
+        score += boost
+        reasons.append(f"actionable development +{boost}")
+
     if len(group) > 1:
         boost = min(3, len(group) - 1)
         score += boost
@@ -361,6 +385,23 @@ def score_story_group(group: list[NewsItem], settings: dict) -> tuple[int, list[
         penalty = min(6, low_value_hits * 3)
         score -= penalty
         reasons.append(f"low value -{penalty}")
+
+    thin_hits = keyword_hits(
+        text,
+        configured_keywords(
+            settings,
+            "thin_story_keywords",
+            (
+                "live updates,what we know,explained in,top quotes,watch,"
+                "reaction,reacts,slams,hits out,likely to,may soon"
+            ),
+        ),
+    )
+
+    if thin_hits:
+        penalty = min(4, thin_hits * 2)
+        score -= penalty
+        reasons.append(f"thin story -{penalty}")
 
     if len(keyword_set(text)) <= 2:
         score -= 2
@@ -392,6 +433,22 @@ def recency_score(group: list[NewsItem]) -> int:
         return 1
 
     return 0
+
+
+def information_density_score(text: str) -> int:
+    score = 0
+    words = keyword_set(text)
+
+    if len(words) >= 8:
+        score += 1
+
+    if re.search(r"\b\d+(?:\.\d+)?\s*(?:%|crore|lakh|million|billion|seats?|votes?|days?|months?|years?)\b", text):
+        score += 1
+
+    if re.search(r"\b(lok sabha|rajya sabha|cabinet|supreme court|election commission|eci|parliament)\b", text):
+        score += 1
+
+    return min(3, score)
 
 
 def source_relevance_score(text: str, item: NewsItem) -> int:

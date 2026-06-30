@@ -4,6 +4,7 @@ import re
 import sys
 import urllib.request
 import xml.etree.ElementTree as ET
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 
@@ -109,16 +110,11 @@ def collect_from_rss(section: str, source_config: dict) -> list[NewsItem]:
     for entry in root.findall(".//item"):
         title = clean_text(entry.findtext("title"))
         link = clean_text(entry.findtext("link"))
+        summary = clean_text(entry.findtext("description"))
         source = clean_text(entry.findtext("source")) or source_name
         published_at = parse_feed_datetime(clean_text(entry.findtext("pubDate")))
 
         if not title or not link:
-            continue
-
-        direct_url = resolve_direct_link(link).strip()
-
-        if not direct_url:
-            print(f"Skipping unresolved RSS link: {title}", file=sys.stderr)
             continue
 
         items.append(
@@ -126,8 +122,9 @@ def collect_from_rss(section: str, source_config: dict) -> list[NewsItem]:
                 section=section,
                 item_id="",
                 title=title,
-                url=direct_url,
+                url=link,
                 source=source,
+                summary=summary,
                 source_weight=source_weight,
                 published=format_item_date(published_at),
                 published_at=published_at,
@@ -152,14 +149,12 @@ def collect_from_rss(section: str, source_config: dict) -> list[NewsItem]:
             clean_text(entry.findtext("atom:published", default="", namespaces=ns))
             or clean_text(entry.findtext("atom:updated", default="", namespaces=ns))
         )
+        summary = (
+            clean_text(entry.findtext("atom:summary", default="", namespaces=ns))
+            or clean_text(entry.findtext("atom:content", default="", namespaces=ns))
+        )
 
         if not title or not link:
-            continue
-
-        direct_url = resolve_direct_link(link).strip()
-
-        if not direct_url:
-            print(f"Skipping unresolved Atom link: {title}", file=sys.stderr)
             continue
 
         items.append(
@@ -167,8 +162,9 @@ def collect_from_rss(section: str, source_config: dict) -> list[NewsItem]:
                 section=section,
                 item_id="",
                 title=title,
-                url=direct_url,
+                url=link,
                 source=source_name,
+                summary=summary,
                 source_weight=source_weight,
                 published=format_item_date(published_at),
                 published_at=published_at,
@@ -177,6 +173,22 @@ def collect_from_rss(section: str, source_config: dict) -> list[NewsItem]:
 
     for index, item in enumerate(items, 1):
         item.item_id = f"{prefix}{index}"
+
+    return items
+
+
+def resolve_selected_links(items: list[NewsItem], settings: dict) -> list[NewsItem]:
+    if not items:
+        return items
+
+    max_workers = max(1, int(settings.get("direct_link_workers", 8)))
+    urls = [item.url for item in items]
+
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        resolved_urls = list(executor.map(resolve_direct_link, urls))
+
+    for item, resolved_url in zip(items, resolved_urls):
+        item.url = resolved_url.strip() or item.url
 
     return items
 
@@ -201,13 +213,12 @@ def collect_news(config: dict) -> list[NewsItem]:
                     file=sys.stderr,
                 )
 
-        limit = int(settings.get(f"{section}_limit", 24))
         relevant_items = filter_relevant_items(section, section_items, settings)
         useful_items = filter_excluded_items(relevant_items, settings)
         fresh_items = filter_fresh_items(useful_items, settings)
-        candidate_items = dedupe_items(fresh_items)[:limit]
+        candidate_items = dedupe_items(fresh_items)
         selected_groups = select_top_story_groups(section, candidate_items, settings)
         selected_items = [item for group in selected_groups for item in group]
-        all_items.extend(assign_ids(section, selected_items))
+        all_items.extend(assign_ids(section, resolve_selected_links(selected_items, settings)))
 
     return all_items
