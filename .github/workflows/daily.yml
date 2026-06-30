@@ -4,6 +4,7 @@ on:
   schedule:
     - cron: "45 20 * * *"  # 2:15 AM IST trigger, may publish around 6 AM if delayed
     - cron: "30 0 * * *"   # 06:00 IST
+    - cron: "30 3 * * *"   # 09:00 IST
     - cron: "30 8 * * *"   # 14:00 IST
     - cron: "30 14 * * *"  # 20:00 IST
   workflow_dispatch:
