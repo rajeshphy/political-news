@@ -1,0 +1,42 @@
+---
+layout: default
+title: "Parliament, governance policy, elections, and party politics in Indian national"
+date: 2026-10-22T23:35:55.056425+00:00
+summary: "Parliament, governance policy, elections, and party politics in Indian national politics"
+run_time_ist: "5:05AM"
+---
+
+<article class="digest-post">
+  <a class="back-link" href="{{ '/' | relative_url }}">Political Brief</a>
+  <p class="post-meta">Headline Digest: 5:05AM</p>
+
+
+<h2 class="section-title">India National Politics</h2>
+
+<ul class="digest-points">
+  <li><strong>The Times of India:</strong> Will decide on any notice to remove CEC according to rules: Lok Sabha Speaker Om Birla - The Times of India<span class="source-chips"><a href="https://news.google.com/rss/articles/CBMi6AFBVV95cUxPcW9DUUxmVnd6Q19xWjVfY19iU3BXb3VOaDJBdDRVUFFzdTlNU2VHRE9FSkROQXVLZDFvVU9mNkN5Y3QwejhMQjFRMG56NkpibWNIcDVRenl5YnRPUDZyRUVoOTYwaWJTRElGUUhMY285TTh3V1FFUzBXQ2pXY3Z2d2dKUk9qS0JhMHA3NklhVEZpWkswa2VXWGltNWg0cWpneG9wY1RYcm44bDJiZWN2QS1iUC1HVjVLME93Yk05c0VLdnFucEYtLS1VdDNxZEw0VS0yX2w0ZG5JR3ZBRVZFTFZQYnF6V1lr0gHuAUFVX3lxTE5JVFJtaDYybDNCVTFFVnhKa0ExZHBKYndDT2pvWEpVYkVYS2t2bXJPV2tmUExRbnhob2hGMVRtLXpDMnNTeUJlNHE3WDFLYW9ITmROalJnRU1veU5OYmJIY095Vmg4UkJubW53YVBGX2pTbVowRkF6eU4wdFRrZmVIRXl3cU5BSXhEb0prNDc0MXZOT2RaRlY1NDJETE1fMm9CYnEtRzUtbjNLendaNlowN1Y1Nzh4NHhLNW1pVVNFcUprQldwY1BnMng4U1BMMEpfTlp2eGt6T3J2QjkzcjdjUlJEQzNOUUxUdmlGOFE?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">I1</a></span></li>
+  <li><strong>The Times of India:</strong> Resignation by Justice Yashwant Varma may end Lok Sabha proceedings - The Times of India<span class="source-chips"><a href="https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNXFRNFhWNWdmdVNsOUpBY3RJVlJsRUd3UWpWeHh3cmhtdmhDSC01RkllU1ZZaUtFR1JVR1hOV3laRTJCX19hNWhnSExxMTdPNEl1SzJ6VHM0d21pdWFqY3Y0V01id0FaS0RUaWxobXpFUVF5ZUV6RGVGYkZhZXhvT3kxVTBKLV9NY3VzWjFBZEQ4RVBZZnlBeUtUUUp3YjlYVC1IOXlwdk1Ya3I0QUVxOUhQZEYzSHl4YmVsRnNfLTlSTTlhcFNLSlE1WXkyazhO0gHWAUFVX3lxTE0tbFFEZ2Uzbkw4WktNWEhHT1BkZXVPOGdjVUxNNlZxOVl4UjQxNUh5MXVGZ0RfYjFNQTVIZEFoSEZvdVdCWTl6WmxmRjI4SmlYLU92SVU4SUFjSDQxU21rNHZuRFh0TElyS01wMWNTc1RsaTJtWmd0dHVJal9JSmtXT2ZsNXpqbEFDVHlOOXA5djl5UUs0Ym5HTDd2aFpYbGJXV1ZzM25mSUhJYnJSZzBtQ0k4YnZZM2RyRS1RbnBLODVhTjFubVU4MDRzUllZQVRXVllMd3c?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">I2</a></span></li>
+  <li><strong>India Business Trade:</strong> Government Plans Agrivoltaics Policy to Boost Farmers’ Income - India Business Trade<span class="source-chips"><a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxQOTczVHpnNkR1R1dOekhpRWlWZFZTNE9NelZMdXRtZElPMUhPbGhfMUxJQTh1MzV1c3YwRlVxTmFyaUV2WUFRLVZ2eGF2bkpJR3B4cnBIbk9OZGtXS0NOdDJzOV9JYWVUU1lFbC1BeXk5WE9BY2dUWG90TDNTLW5pQXJoV3RGWmFkZ1FWYjFGNHFBd1FPMFJDYllB?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">I3</a></span></li>
+</ul>
+
+<h2 class="section-title">Policy and Institutions</h2>
+
+<ul class="digest-points">
+  <li><strong>The Tribune:</strong> Congress election manifesto - The Tribune<span class="source-chips"><a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxPM3FYcFFEVVMyZzF1NzZ3RWVpWEo0SXZGZHhlbngxZjljYWJQRkJSYWNxeG1vWUNPOGlydnYtT3BISzE0XzZrT2hUOXVBSE1xNzl3LS1uRTIxeVlqc2R5YVdxMXJ6Tld6amRKSmlDcURDbUFEMzd4ejdwV3RtTXF6TFpR0gGGAUFVX3lxTE1SbkxrN3RuUXlwcHBDRXVRM3JkMnJhUEpFTEJQTW1YVG1HOWtNS1ItWk4wd3RDVm11TkVaVU9MZkZsT0Y3TGFfZVlmWmZNR1ZsRnZoV1NHdFdENWlQUjJORlVfdkpRMHdZTlpNMjNWWUlJTkZWQ1E3M3hGbXE0LVhYUVExLXN3?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">W1</a></span></li>
+  <li><strong>News From The States:</strong> Dems in Congress say they’re wary Trump won&#x27;t accept results of election - News From The States<span class="source-chips"><a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYmZtZHV2TzNjNTBvdnZnNl9mVDlobTlpT0xVbWViVXJpQ3NnMFppamNnZGlIbVJHZTZSSHdCSFRjZXg4eXhhRklfV0N2amxTNVc5UWJ2UTNBNHpSVE5McFZTdUt5WnBNVnpfOUNFOTA5UFRBYVdsejdEUDBjU201UGFfYldFal8zWTlfdDZoNEwyZEl1bDdLbGhiQjRWMEZTb1BtZmhrbzFEQQ?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">W2</a></span></li>
+</ul>
+
+<details class="tp-sources">
+<summary>Sources considered</summary>
+
+<ul class="source-list">
+  <li><a href="https://news.google.com/rss/articles/CBMi6AFBVV95cUxPcW9DUUxmVnd6Q19xWjVfY19iU3BXb3VOaDJBdDRVUFFzdTlNU2VHRE9FSkROQXVLZDFvVU9mNkN5Y3QwejhMQjFRMG56NkpibWNIcDVRenl5YnRPUDZyRUVoOTYwaWJTRElGUUhMY285TTh3V1FFUzBXQ2pXY3Z2d2dKUk9qS0JhMHA3NklhVEZpWkswa2VXWGltNWg0cWpneG9wY1RYcm44bDJiZWN2QS1iUC1HVjVLME93Yk05c0VLdnFucEYtLS1VdDNxZEw0VS0yX2w0ZG5JR3ZBRVZFTFZQYnF6V1lr0gHuAUFVX3lxTE5JVFJtaDYybDNCVTFFVnhKa0ExZHBKYndDT2pvWEpVYkVYS2t2bXJPV2tmUExRbnhob2hGMVRtLXpDMnNTeUJlNHE3WDFLYW9ITmROalJnRU1veU5OYmJIY095Vmg4UkJubW53YVBGX2pTbVowRkF6eU4wdFRrZmVIRXl3cU5BSXhEb0prNDc0MXZOT2RaRlY1NDJETE1fMm9CYnEtRzUtbjNLendaNlowN1Y1Nzh4NHhLNW1pVVNFcUprQldwY1BnMng4U1BMMEpfTlp2eGt6T3J2QjkzcjdjUlJEQzNOUUxUdmlGOFE?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">[I1] Will decide on any notice to remove CEC according to rules: Lok Sabha Speaker Om Birla - The Times of India</a> The Times of India</li>
+  <li><a href="https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNXFRNFhWNWdmdVNsOUpBY3RJVlJsRUd3UWpWeHh3cmhtdmhDSC01RkllU1ZZaUtFR1JVR1hOV3laRTJCX19hNWhnSExxMTdPNEl1SzJ6VHM0d21pdWFqY3Y0V01id0FaS0RUaWxobXpFUVF5ZUV6RGVGYkZhZXhvT3kxVTBKLV9NY3VzWjFBZEQ4RVBZZnlBeUtUUUp3YjlYVC1IOXlwdk1Ya3I0QUVxOUhQZEYzSHl4YmVsRnNfLTlSTTlhcFNLSlE1WXkyazhO0gHWAUFVX3lxTE0tbFFEZ2Uzbkw4WktNWEhHT1BkZXVPOGdjVUxNNlZxOVl4UjQxNUh5MXVGZ0RfYjFNQTVIZEFoSEZvdVdCWTl6WmxmRjI4SmlYLU92SVU4SUFjSDQxU21rNHZuRFh0TElyS01wMWNTc1RsaTJtWmd0dHVJal9JSmtXT2ZsNXpqbEFDVHlOOXA5djl5UUs0Ym5HTDd2aFpYbGJXV1ZzM25mSUhJYnJSZzBtQ0k4YnZZM2RyRS1RbnBLODVhTjFubVU4MDRzUllZQVRXVllMd3c?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">[I2] Resignation by Justice Yashwant Varma may end Lok Sabha proceedings - The Times of India</a> The Times of India</li>
+  <li><a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxQOTczVHpnNkR1R1dOekhpRWlWZFZTNE9NelZMdXRtZElPMUhPbGhfMUxJQTh1MzV1c3YwRlVxTmFyaUV2WUFRLVZ2eGF2bkpJR3B4cnBIbk9OZGtXS0NOdDJzOV9JYWVUU1lFbC1BeXk5WE9BY2dUWG90TDNTLW5pQXJoV3RGWmFkZ1FWYjFGNHFBd1FPMFJDYllB?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">[I3] Government Plans Agrivoltaics Policy to Boost Farmers’ Income - India Business Trade</a> India Business Trade</li>
+  <li><a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxPM3FYcFFEVVMyZzF1NzZ3RWVpWEo0SXZGZHhlbngxZjljYWJQRkJSYWNxeG1vWUNPOGlydnYtT3BISzE0XzZrT2hUOXVBSE1xNzl3LS1uRTIxeVlqc2R5YVdxMXJ6Tld6amRKSmlDcURDbUFEMzd4ejdwV3RtTXF6TFpR0gGGAUFVX3lxTE1SbkxrN3RuUXlwcHBDRXVRM3JkMnJhUEpFTEJQTW1YVG1HOWtNS1ItWk4wd3RDVm11TkVaVU9MZkZsT0Y3TGFfZVlmWmZNR1ZsRnZoV1NHdFdENWlQUjJORlVfdkpRMHdZTlpNMjNWWUlJTkZWQ1E3M3hGbXE0LVhYUVExLXN3?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">[W1] Congress election manifesto - The Tribune</a> The Tribune</li>
+  <li><a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYmZtZHV2TzNjNTBvdnZnNl9mVDlobTlpT0xVbWViVXJpQ3NnMFppamNnZGlIbVJHZTZSSHdCSFRjZXg4eXhhRklfV0N2amxTNVc5UWJ2UTNBNHpSVE5McFZTdUt5WnBNVnpfOUNFOTA5UFRBYVdsejdEUDBjU201UGFfYldFal8zWTlfdDZoNEwyZEl1bDdLbGhiQjRWMEZTb1BtZmhrbzFEQQ?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">[W2] Dems in Congress say they’re wary Trump won&#x27;t accept results of election - News From The States</a> News From The States</li>
+  <li><a href="https://news.google.com/rss/articles/CBMi1wFBVV95cUxObFZ1ZXVlekh4akhrb09RT1RZaFdEVF9WZ05fSWtPc1RVelF1RGxyUmc5dzdaaHRsX0tKVzcyWU15S0ZYV242T2RLaFlTQkJvV2Z1S05WXzYxcWJYazh0Q2J2enMtQTZSRDZJdVJhOVNzblUxTmNKa0xrTEhRWS1BckxjOXdBcmdjY2ktUVZFSGZaVEFDRjFodzZ1NE5jWUJOMHpCNHVKcU11MDRCRVJLMTZGTGE0MEstUklNNXhoNjZxQUNzX3dnbGlvb0ZXRUswcnNxRFU2RdIB3gFBVV95cUxNSlBzd2YtSHppbUhFTXR3eWZGYjRxN2ZvWkNIbGxtcWd3d25jcUw3MUZYM0FUTDZncDNmemVYeW1PUl9YTzBKWFltd0pueW1TN2h6YXVlSm1IN2hiNTR6MVFhZ0s1SENjVTQ4amtoby1oQlBCQWp3Ynl5dXZUSTZzamgxOC00Q093RTF3bXhjVWR4Rk5hVE5EQWpGWTA3UUNhblc0ZTljeEYxQW54YnN2X0tsZEFIR3h1enhmUk1LbnJoN3BXRXFjMXllVDJNbHQxRjJLOUI2ekhYUm9ORlE?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">[W3] BJP President Nitin Nabin on a three-day visit to Jharkhand from October 23 - The Hindu</a> The Hindu</li>
+</ul>
+
+</details>
+</article>
