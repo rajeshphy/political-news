@@ -1,0 +1,42 @@
+---
+layout: default
+title: "National Political and Policy Brief: November 14, 2026"
+date: 2026-11-13T20:56:10.204745+00:00
+summary: "Debates on electoral reform and international reputation dominate national discourse, while legal challenges continue in the Supreme Court"
+run_time_ist: "2:26AM"
+---
+
+<article class="digest-post">
+  <a class="back-link" href="{{ '/' | relative_url }}">Political Brief</a>
+  <p class="post-meta">Gemini Summary: 2:26AM</p>
+
+
+<h2 class="section-title">India National Politics</h2>
+
+<ul class="digest-points">
+  <li><strong>Electoral reform:</strong> Policymakers are debating the implementation of &#x27;One Nation, One Election&#x27; as a potential solution to stabilize India&#x27;s complex election calendar.<span class="source-chips"><a href="https://news.google.com/rss/articles/CBMi5wFBVV95cUxQam1EZmRDb2FyeldmY0hGT1RFOEd2N0NEZFNpS3QwZ1I1cW5Rc29DRFU4M2lBSEY2U19EVUtCTkxveW5LUl9ja1NjNGhEbG9XZVlGWGhVVGQzbVFDenNORjFuWFpOQlpkd2pnNU1KRW0yV1hsNTJJaXVySXFsazVJVEJWWjFhN1RnNklpSC1hX3FDaWxLaGUxbFppSm03RGhEZjM5T0ZsNkNkZjd0bUtoSm1id1NoWGFEb1IxNURWdVlEWHctWEU3VG9fQkV0X2lkeXlCbGo4cUFsVzVFdkJXeDlGMFhNelHSAewBQVVfeXFMT0NmMGRVRW1YTzJOXzg2NW5NalR2V25wamNRUjdaNGVTb3lKZmJvcUpDWTR2ZGVvZUI0Y2E2Um5MRFlDWEMyWV80LXJpY3E2MDl6cVJwSk0wNGRrTnNuNFdnTnVBOUtIRDZ3SFhvREtNT0haSktTYWtoQkJ0WGVLWjVZV282NEF5Y1hBblpOZU1NdFJlNjZXMUdBYnJ6LS1tVGR3anFNWkFyb3ZPUEZ1bWZWNnowcXdtcnFvOGtYbl8xYmR2SVRZVGRabkRVWVc0SkEwbmRTYlYxcGkzYXpfQV9GWGRoUHE1eXd5ZUI?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">I1</a></span></li>
+  <li><strong>International reputation:</strong> The International Olympic Committee has expressed concerns regarding the impact of domestic election-related controversies on India&#x27;s global sporting standing.<span class="source-chips"><a href="https://news.google.com/rss/articles/CBMijgJBVV95cUxNX0wxM2ViRlVuOGFLOG01SmI5SS1BT09Sb1hzamx0b2dkV2ZYYk9yT0U1UlhfSlNjLWVTTS1PWDZETU9MUHg5ejZsZzVkYkwtRU1nbEh1YVpqc1oyUzh0Y2R3ZlBKRHZrb21jajJYYUE0WndxSDhITFZmU3lISDVhc2N6S2RoQ1U2akVkSkdEYjY1c0lQZldBMmNCLVBJVjNmMWJMREVFZVh5VTdWQ1NIbVpJU2MtQ3EtMkdkMjNaUF9jemJOdmpYbjhLbDd3MmhRZ2otZzdLTFcwWEhkeGEzWndHa19UWGZZQWhGVnl6dExuYXcxS255YmZmLUtNVkpSYWVDR21rYzNKcGxjWlE?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">I2</a></span></li>
+  <li><strong>Foreign policy critique:</strong> Senior opposition leader Salman Khurshid has publicly criticized the Union government&#x27;s current approach to foreign policy.<span class="source-chips"><a href="https://news.google.com/rss/articles/CBMivgFBVV95cUxPcWRieUNBSG9wVHV1bmZNUC13QkpPWmwydWFEQ3g2YkRFX1ZrZm1tSW12U2pCMjZEaFU0MkZrZXk0QkFVV3N0U282cGRaT3liRmk1Smo2X0lTakt2Y3RmcDI3bFFQOXNWa2t4c3VxOTBqbVhEUHA1LUgyeXZaTHRmLVFNcHVMV3FpTlNESldCWTZWOG0tSUNvRjRlTU9vSG5RNElqa1BIamNKVnlKUTlReFBCY09FcU80OWo5V0930gHDAUFVX3lxTE5VYkNOWF9ObC1HcXJvRnJCZDV4VGtRczZHM0RldWk3QnBTc1J0ZU9McHJmRXRLQ0ZQTVFJNmF1WmF0V1JIQ04xeGZvVnY3ZGE3VTRaVzV0S2JIZ3FtSUFINEo4a2hKQzB5dzZzLWVybTVvc1VwLVRPdS0zZVFaTmxfdWR1SlNIb0pOajZIYmVxQmRabHJ6SVR1NFVFSTVtbDJidGg3MWUwMDVqTTFLZUM1WVRMZTFIRzhoVGc3eXFCN3Jucw?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">I4</a></span></li>
+</ul>
+
+<h2 class="section-title">Policy and Institutions</h2>
+
+<ul class="digest-points">
+  <li><strong>Supreme Court litigation:</strong> Yes Bank has filed a petition with the Supreme Court seeking a formal review of the court&#x27;s previous order concerning AT-1 bonds.</li>
+</ul>
+
+<details class="tp-sources">
+<summary>Sources considered</summary>
+
+<ul class="source-list">
+  <li><a href="https://news.google.com/rss/articles/CBMi5wFBVV95cUxQam1EZmRDb2FyeldmY0hGT1RFOEd2N0NEZFNpS3QwZ1I1cW5Rc29DRFU4M2lBSEY2U19EVUtCTkxveW5LUl9ja1NjNGhEbG9XZVlGWGhVVGQzbVFDenNORjFuWFpOQlpkd2pnNU1KRW0yV1hsNTJJaXVySXFsazVJVEJWWjFhN1RnNklpSC1hX3FDaWxLaGUxbFppSm03RGhEZjM5T0ZsNkNkZjd0bUtoSm1id1NoWGFEb1IxNURWdVlEWHctWEU3VG9fQkV0X2lkeXlCbGo4cUFsVzVFdkJXeDlGMFhNelHSAewBQVVfeXFMT0NmMGRVRW1YTzJOXzg2NW5NalR2V25wamNRUjdaNGVTb3lKZmJvcUpDWTR2ZGVvZUI0Y2E2Um5MRFlDWEMyWV80LXJpY3E2MDl6cVJwSk0wNGRrTnNuNFdnTnVBOUtIRDZ3SFhvREtNT0haSktTYWtoQkJ0WGVLWjVZV282NEF5Y1hBblpOZU1NdFJlNjZXMUdBYnJ6LS1tVGR3anFNWkFyb3ZPUEZ1bWZWNnowcXdtcnFvOGtYbl8xYmR2SVRZVGRabkRVWVc0SkEwbmRTYlYxcGkzYXpfQV9GWGRoUHE1eXd5ZUI?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">[I1] India’s election calendar needs a reset. Is &#x27;One Nation, One Election&#x27; the answer? - The Economic Times</a> The Economic Times</li>
+  <li><a href="https://news.google.com/rss/articles/CBMijgJBVV95cUxNX0wxM2ViRlVuOGFLOG01SmI5SS1BT09Sb1hzamx0b2dkV2ZYYk9yT0U1UlhfSlNjLWVTTS1PWDZETU9MUHg5ejZsZzVkYkwtRU1nbEh1YVpqc1oyUzh0Y2R3ZlBKRHZrb21jajJYYUE0WndxSDhITFZmU3lISDVhc2N6S2RoQ1U2akVkSkdEYjY1c0lQZldBMmNCLVBJVjNmMWJMREVFZVh5VTdWQ1NIbVpJU2MtQ3EtMkdkMjNaUF9jemJOdmpYbjhLbDd3MmhRZ2otZzdLTFcwWEhkeGEzWndHa19UWGZZQWhGVnl6dExuYXcxS255YmZmLUtNVkpSYWVDR21rYzNKcGxjWlE?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">[I2] International Olympic Committee flags damage to India&#x27;s Olympic reputation amid election row - Dailyhunt</a> Dailyhunt</li>
+  <li><a href="https://news.google.com/rss/articles/CBMi1wFBVV95cUxOQjdNV3dnb0VyaHJSUV9sTHJZSUdmeU1GZUxHeS1HazNPUHREUENYb0Nza0hZbnpIZjh3TXlZR2xNTDMwR0sxQjNrMmNKVDhXUUNkaTBDdVRJU1pkU1pFUVIyODJKc0Zyb0NLVHJaU1ZPZGNKaGcwc01QS1pXUExMdlBraTlRS1BCMUktcjBsN1J0LVQ0SlZFdHFEdmJCRWVHMzFOVUxUcl85Y1c2a0hZaFFHanRHNVI0OVlvQl9XOExCSGhUZ3pzWTc0NEdMRWY1T0FYd0FHMNIB2wFBVV95cUxPS054alB1Z3FDemhYcVA1UXJkMWI2a214UkMyMXFXMkZqaUY5QmtiWHRNVnZFWHVVUUhwRFlhUXB4OFBjRmN2WDlleW51SDlfS1liWTZCNkJqQktxSGFRYXgwVTUtMzZ2VExTczhLMWZXb2dlbVJ3N2QxaUVLYXUzNTlzMUJVSkRrQ21MUUpTcXVNSVNhcEh2LUtPQ0xZYW5YempXRE92SHRaVkh3UEFTRThfNXJ6Zzc4dTM0TEJUa0VLZjhVc0J2OENzWHFZVTl0dUxMeDlfb0FFMms?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">[I3] Yes Bank files Supreme Court petition seeking review of AT-1 bond order - ETLegalWorld.com</a> ETLegalWorld.com</li>
+  <li><a href="https://news.google.com/rss/articles/CBMivgFBVV95cUxPcWRieUNBSG9wVHV1bmZNUC13QkpPWmwydWFEQ3g2YkRFX1ZrZm1tSW12U2pCMjZEaFU0MkZrZXk0QkFVV3N0U282cGRaT3liRmk1Smo2X0lTakt2Y3RmcDI3bFFQOXNWa2t4c3VxOTBqbVhEUHA1LUgyeXZaTHRmLVFNcHVMV3FpTlNESldCWTZWOG0tSUNvRjRlTU9vSG5RNElqa1BIamNKVnlKUTlReFBCY09FcU80OWo5V0930gHDAUFVX3lxTE5VYkNOWF9ObC1HcXJvRnJCZDV4VGtRczZHM0RldWk3QnBTc1J0ZU9McHJmRXRLQ0ZQTVFJNmF1WmF0V1JIQ04xeGZvVnY3ZGE3VTRaVzV0S2JIZ3FtSUFINEo4a2hKQzB5dzZzLWVybTVvc1VwLVRPdS0zZVFaTmxfdWR1SlNIb0pOajZIYmVxQmRabHJ6SVR1NFVFSTVtbDJidGg3MWUwMDVqTTFLZUM1WVRMZTFIRzhoVGc3eXFCN3Jucw?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">[I4] Salman Khurshid slams Centre’s foreign policy - The Times of India</a> The Times of India</li>
+  <li><a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxNbkE3dWpMQy1Ka1ZmbWRRMlM1SHNYNXBWWDc2a3RRWUh0MDBrMTFPbHNGVUIwOFRyUkNrTEV4U0lqZ1JDNmpnNUY4UGlkN2psWnI1R1lDVDNBTDRSWWYwQkRrNFlMdFVaMVBlcXVldWJrVnZua3Q0a2twc1lWbWxYYTRWZWZ4S1BFdlBuRkZTT2VzTzgx0gGaAUFVX3lxTE5ka1lWTG04X2JnbV83cE9lSEQ4a0libEVWc3NZX2lxSk5ldnB2bGhlVXM2Uko5Snl6VE9jeW9xWS1RZVpEeHAwTUMtU19YcHJwaUx6bXlTQ0lTaktOZFJneVZhM0k5Y3hNUWp5Y2RoYVdYYy1GRE9mOWxJNkoxVlZudHZOUXYyX0ZLY1NSVFIzUTk0MHc2QjB3Wmc?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">[W1] Lauren Boebert spectacularly ousted from Congress after years of scandals tank re-election bid - Daily Mail</a> Daily Mail</li>
+  <li><a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTWJ3dTZRV3dEc3dmTHJNMkVqQUxUS0JZSFZLLUxLOFdjaUxRMFFWREdxcXlHNjE5U3g3UU1mVGE5dTNXQ1JuTFFDSTZtZXAweVI2R1JSYUx0dnFGWnBWeFBHOFBWR3Ezcy14aUpTWkVudzVkMVdJWEhPbWFLT2lYZWFad3paVUZW?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">[W2] Iraqi Prime Minister Puts Iranian Stooges on Notice - Foundation for Defense of Democracies</a> Foundation for Defense of Democracies</li>
+  <li><a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxPVG1mX2lSS0V2cW9LUXFTNmZmYlUzcUZuSGtXd2hUTHBaYzlBakJKZzN1QUFBbFktQzEyeXdsVTNQbHFMbVYtSGM1UHU5ODJGUERYTmJaSmZUQk5VcTlsalQ5YjFnclEwTDJQdlJTS2pQUVIzcWVWR0lrRWZHVXppMkdkZVY0RkpXMm9EZGNmdzE1OVRmN3gw?oc=5&amp;hl=en-US&amp;gl=US&amp;ceid=US%3Aen" target="_blank" rel="noopener noreferrer">[W3] Ex-NVIDIA (NVDA) CEO Jensen Huang to appear before Congress in national security hearing - Shacknews</a> Shacknews</li>
+</ul>
+
+</details>
+</article>
